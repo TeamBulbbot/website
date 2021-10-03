@@ -11,7 +11,7 @@ const NavbarComp = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="https://bulbbot.rocks/invite" target="_blank">
+          <Nav.Link href="/invite" target="_blank">
             Adding Bulbbot
           </Nav.Link>
           <Nav.Link href="https://docs.bulbbot.rocks">Documentation</Nav.Link>
@@ -20,7 +20,7 @@ const NavbarComp = () => (
           </Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="https://bulbbot.rocks/discord" target="_blank">
+          <Nav.Link href="/support" target="_blank">
             Support
           </Nav.Link>
           <Nav.Link href="https://docs.bulbbot.rocks/team">The Team</Nav.Link>

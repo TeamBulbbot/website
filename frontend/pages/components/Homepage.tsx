@@ -22,7 +22,7 @@ const Homepage = () => (
             color: "black",
             border: "none",
           }}
-          href="https://bulbbot.rocks/invite"
+          href="/invite"
           target="_blank"
         >
           Invite Bulbbot
@@ -49,7 +49,7 @@ const Homepage = () => (
             color: "black",
             border: "none",
           }}
-          href="https://bulbbot.rocks/discord"
+          href="/support"
           target="_blank"
         >
           Support
