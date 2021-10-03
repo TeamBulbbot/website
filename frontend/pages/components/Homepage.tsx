@@ -49,7 +49,7 @@ const Homepage = () => (
             color: "black",
             border: "none",
           }}
-          href="/support"
+          href="/discord"
           target="_blank"
         >
           Support

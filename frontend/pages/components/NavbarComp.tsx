@@ -20,7 +20,7 @@ const NavbarComp = () => (
           </Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="/support" target="_blank">
+          <Nav.Link href="/discord" target="_blank">
             Support
           </Nav.Link>
           <Nav.Link href="https://docs.bulbbot.rocks/team">The Team</Nav.Link>
