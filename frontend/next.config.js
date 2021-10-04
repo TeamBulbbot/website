@@ -6,4 +6,8 @@ module.exports = withPlugins([[optimizedImages, {}]]);
 
 module.exports = {
   reactStrictMode: true,
+  images: {
+    loader: "imgix",
+    path: "/",
+  },
 };

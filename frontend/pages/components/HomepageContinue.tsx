@@ -3,6 +3,11 @@ import { Row, Col, Container } from "react-bootstrap";
 import Image from "next/image";
 import Tilt from "react-parallax-tilt";
 
+// @ts-ignore
+const myLoader = ({ src, width, quality }) => {
+  return `https://bulbbot.rocks/${src}?w=${width}&q=${quality || 75}`;
+};
+
 import automod from "../../public/automod.png";
 import logging from "../../public/logging.png";
 import infractions from "../../public/infractions.png";
@@ -24,7 +29,8 @@ const HomepageContinue = () => (
         <Col md="auto">
           <Tilt>
             <div>
-              <Image
+              <Image // @ts-ignore
+                loader={myLoader}
                 src={automod}
                 alt="Automod image"
                 width="800"
@@ -39,7 +45,8 @@ const HomepageContinue = () => (
         <Col md="auto">
           <Tilt>
             <div>
-              <Image
+              <Image // @ts-ignore
+                loader={myLoader}
                 src={logging}
                 alt="Logging iamge"
                 width="700"
@@ -72,7 +79,8 @@ const HomepageContinue = () => (
         <Col md="auto">
           <Tilt>
             <div>
-              <Image
+              <Image // @ts-ignore
+                loader={myLoader}
                 src={infractions}
                 alt="Infraction Image"
                 width="450"
@@ -87,7 +95,13 @@ const HomepageContinue = () => (
         <Col md="auto">
           <Tilt>
             <div>
-              <Image src={flags} alt="Flags image" width="700" height="400" />
+              <Image // @ts-ignore
+                loader={myLoader}
+                src={flags}
+                alt="Flags image"
+                width="700"
+                height="400"
+              />
             </div>
           </Tilt>
         </Col>

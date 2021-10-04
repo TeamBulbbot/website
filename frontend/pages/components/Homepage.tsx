@@ -5,6 +5,11 @@ import Image from "next/image";
 import logo from "../../public/logo.png";
 import Tilt from "react-parallax-tilt";
 
+// @ts-ignore
+const myLoader = ({ src, width, quality }) => {
+  return `https://bulbbot.rocks/${src}?w=${width}&q=${quality || 75}`;
+};
+
 // import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -12,7 +17,13 @@ const Homepage = () => (
   <main className={styles.main}>
     <Tilt>
       <div>
-        <Image src={logo} alt="Logo" width="200" height="200" />
+        <Image // @ts-ignore
+          loader={myLoader}
+          src={logo}
+          alt="Logo"
+          width="200"
+          height="200"
+        />
       </div>
     </Tilt>
     <h1 className={styles.title}>Bulbbot</h1>
