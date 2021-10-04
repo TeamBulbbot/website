@@ -6,6 +6,7 @@ import styles from "../styles/Home.module.css";
 import Homepage from "./components/Homepage";
 import Footer from "./components/Footer";
 import NavbarComp from "./components/NavbarComp";
+import HomepageContinue from "./components/HomepageContinue";
 
 const Home: NextPage = () => {
   return (
@@ -24,8 +25,9 @@ const Home: NextPage = () => {
           />
         </Head>
         <Homepage />
-        <Footer />
       </div>
+      <HomepageContinue />
+      <Footer />
     </>
   );
 };

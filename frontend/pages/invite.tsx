@@ -15,7 +15,10 @@ const Invite: NextPage = () => {
 
   return (
     <>
-      <a href="https://discord.com/oauth2/authorize?client_id=868821693571932191&permissions=261955644663&scope=bot+applications.commands">
+      <a
+        href="https://discord.com/oauth2/authorize?client_id=868821693571932191&permissions=261955644663&scope=bot+applications.commands"
+        className="centered"
+      >
         Press me if you didnt get redirected
       </a>
     </>

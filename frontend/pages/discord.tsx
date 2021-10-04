@@ -11,7 +11,7 @@ const Discord: NextPage = () => {
 
   return (
     <>
-      <a href="https://discord.com/invite/WgEtVqyNFZ">
+      <a href="https://discord.com/invite/WgEtVqyNFZ" className="centered">
         Press me if you didnt get redirected
       </a>
     </>

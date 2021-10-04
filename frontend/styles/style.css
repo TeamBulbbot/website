@@ -1,0 +1,49 @@
+.navbar-item {
+  color: white !important;
+  background-color: #30323d !important;
+  font-weight: bold;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.invite-btn {
+  background-color: #e8c547 !important;
+  color: black !important;
+  border: none;
+}
+
+.docs-btn {
+  background-color: #cdd1c4 !important;
+  color: black !important;
+  border: none;
+}
+
+.support-btn {
+  background-color: #5c80bc !important;
+  color: black !important;
+  border: none;
+}
+
+.support-btn:hover,
+.docs-btn:hover,
+.invite-btn:hover {
+  background-color: #4d5061 !important;
+  color: black !important;
+  border: none;
+}
+
+.navbar-item:hover {
+  color: #cdd1c4 !important;
+}
+
+.padding-whitespace-top {
+  padding-top: 8%;
+}
+.padding-whitespace-bot {
+  padding-bottom: 3%;
+}
