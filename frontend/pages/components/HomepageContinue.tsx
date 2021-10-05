@@ -21,8 +21,8 @@ const HomepageContinue = () => (
           <h2>Extensive automoderation (automod)</h2>
           <p>
             Keep all of the bad guys out of your server with our easy to
-            configure automoderation, choice from a wide net of different
-            features and confiugre to your liking.
+            configure automoderation. Choose from a wide net of different
+            features that can be configured to your liking.
           </p>
         </Col>
 
@@ -59,7 +59,7 @@ const HomepageContinue = () => (
           <h2>Robust logging</h2>
           <p>
             Know what is going on in your server when you are asleep or away.
-            Our logs make you never miss any deleted message, edits or if a
+            Our logs help you never miss any deleted message, edits or if a
             moderator is banning someone.
           </p>
         </Col>
@@ -70,7 +70,7 @@ const HomepageContinue = () => (
           <h2>Infraction system</h2>
           <p>
             Infractions is the way you can keep track of what is happening
-            without having to memories every single mod action that has happend
+            without having to memorize every single mod action that has happend
             on your server. Think of it like a large notepad of what is going on
             in your server.
           </p>
