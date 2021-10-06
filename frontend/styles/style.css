@@ -1,7 +1,10 @@
-.navbar-item {
-  color: white !important;
+.navbar {
   background-color: #30323d !important;
   font-weight: bold;
+}
+
+.navbar-item {
+  color: white !important;
 }
 
 .centered {

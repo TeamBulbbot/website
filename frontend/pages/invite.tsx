@@ -6,8 +6,6 @@ import Router from "next/router";
 
 const Invite: NextPage = () => {
   useEffect(() => {
-    const { pathname } = Router;
-    if (pathname == "/invite")
       Router.push(
         "https://discord.com/oauth2/authorize?client_id=868821693571932191&permissions=261955644663&scope=bot+applications.commands"
       );

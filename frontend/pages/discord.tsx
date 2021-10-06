@@ -4,8 +4,6 @@ import Router from "next/router";
 
 const Discord: NextPage = () => {
   useEffect(() => {
-    const { pathname } = Router;
-    if (pathname == "/discord")
       Router.push("https://discord.com/invite/WgEtVqyNFZ");
   });
 
