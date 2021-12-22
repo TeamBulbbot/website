@@ -5,22 +5,20 @@ import React, { useEffect } from "react";
 import Router from "next/router";
 
 const Invite: NextPage = () => {
-  useEffect(() => {
-      Router.push(
-        "https://discord.com/oauth2/authorize?client_id=868821693571932191&permissions=261955644663&scope=bot+applications.commands"
-      );
-  });
+	useEffect(() => {
+		Router.push("https://discord.com/oauth2/authorize?client_id=868821693571932191&permissions=1636345249015&scope=bot+applications.commands");
+	});
 
-  return (
-    <>
-      <a
-        href="https://discord.com/oauth2/authorize?client_id=868821693571932191&permissions=261955644663&scope=bot+applications.commands"
-        className="centered"
-      >
-        Press me if you didnt get redirected
-      </a>
-    </>
-  );
+	return (
+		<>
+			<a
+				href="https://discord.com/oauth2/authorize?client_id=868821693571932191&permissions=1636345249015&scope=bot+applications.commands"
+				className="centered"
+			>
+				Press me if you didnt get redirected
+			</a>
+		</>
+	);
 };
 
 export default Invite;
