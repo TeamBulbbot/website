@@ -41,6 +41,7 @@ const nextConfig = {
 		];
 	},
 
+	exportTrailingSlash: true,
 	reactStrictMode: true,
 };
 
