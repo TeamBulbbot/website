@@ -5,7 +5,7 @@ const nextConfig = {
 		loader: "akamai",
 		path: "",
 	},
-	async redirects() {
+	/*async redirects() {
 		return [
 			{
 				source: "/discord",
@@ -38,7 +38,7 @@ const nextConfig = {
 				permanent: true,
 			},
 		];
-	},
+	},*/
 
 	reactStrictMode: true,
 };
