@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
+		"build2": "next build && next export && cp ./_redirects ./out",
 		"start": "next start",
 		"lint": "next lint"
 	},
