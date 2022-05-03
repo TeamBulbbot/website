@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import React, { useEffect } from "react";
 import Router from "next/router";
-import { TWITTER } from "./constants";
+import { TWITTER } from "../src/constants";
 
 const TwitterPage: NextPage = () => {
 	useEffect(() => {

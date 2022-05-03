@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import React, { useEffect } from "react";
 import Router from "next/router";
-import { PATREON } from "./constants";
+import { PATREON } from "../src/constants";
 
 const PatreonPage: NextPage = () => {
 	useEffect(() => {
