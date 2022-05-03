@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import React, { useEffect } from "react";
 import Router from "next/router";
-import { BOT_INVITE, DOCUMENTATION } from "../src/constants";
+import { DOCUMENTATION } from "../src/constants";
 
 const DocumentationPage: NextPage = () => {
 	useEffect(() => {
